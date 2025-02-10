@@ -12,6 +12,7 @@
     <h2>Patrons de Comportament</h2>
     <form method="GET" id="patternForm" action="">
         <select name="patro" onchange="updateFormAction(this)">
+            <option value="">Selecciona un patró</option>
             <option value="strategy.php">Strategy</option>
             <option value="observer.php">Observer</option>
         </select>

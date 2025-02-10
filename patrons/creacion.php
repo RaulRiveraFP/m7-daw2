@@ -13,8 +13,8 @@
     <form action="" method="GET">
     <select name="patro" onchange="redirectToPattern(this)">
         <option value="">Selecciona un patró</option>
-        <option value="adapter.php">Adapter</option>
         <option value="singleton.php">Singleton</option>
+        <option value="factory.php">Factory</option>
     </select>
 </form>
 

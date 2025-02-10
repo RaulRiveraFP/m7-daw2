@@ -14,7 +14,6 @@
     <select name="patro" onchange="if(this.value) window.location.href='patrons/' + this.value">
         <option value="">Selecciona un patró</option>
         <option value="adapter.php">Adapter</option>
-        <option value="singleton.php">Singleton</option>
     </select>
 </form>
 </body>

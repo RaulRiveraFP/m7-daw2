@@ -1,0 +1,76 @@
+/* estilos.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+header {
+    background: #333;
+    color: white;
+    padding: 15px;
+    font-size: 24px;
+}
+
+nav {
+    background: #444;
+    padding: 10px;
+}
+
+nav span {
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+    padding: 10px 20px;
+    background: #555;
+    border-radius: 5px;
+}
+
+nav span:hover {
+    background: #777;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.card {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.card:hover {
+    background: #ddd;
+}
+
+form {
+    margin-top: 20px;
+}
+
+select, button {
+    padding: 10px;
+    margin: 10px;
+    font-size: 16px;
+}
+
+button {
+    background: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background: #555;
+}

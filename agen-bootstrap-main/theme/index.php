@@ -11,7 +11,7 @@
 
 <head>
   <meta charset="utf-8">
-  <title>Agen | Bootstrap Agency Template</title>
+  <title>Essència Natural</title>
 
   <!-- mobile responsive meta -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -92,11 +92,11 @@
 
 <!-- banner -->
 <section class="banner bg-cover position-relative d-flex justify-content-center align-items-center"
-  data-background="images/banner/banner2.jpg">
+  data-background="images/banner.jpeg">
   <div class="container">
     <div class="row">
       <div class="col-12 text-center">
-        <h1 class="display-1 text-white font-weight-bold font-primary">Creative Agency</h1>
+        <h1 class="display-1 text-white font-weight-bold font-primary">Salut i benestar holístic</h1>
       </div>
     </div>
   </div>
@@ -108,10 +108,8 @@
   <div class="container">
     <div class="row">
       <div class="col-lg-10 mx-auto text-center">
-        <h2 class="section-title">Our Services</h2>
-        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
-          labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat.</p>
+        <h2 class="section-title">Els nostres serveis</h2>
+        <p class="lead">Oferim teràpies naturals i holístiques per recuperar el teu benestar físic, mental i emocional. El nostre equip de professionals t'acompanya cap a una vida més saludable i equilibrada.</p>
         <div class="section-border"></div>
       </div>
     </div>
@@ -120,38 +118,37 @@
         <div class="card hover-bg-secondary shadow py-4 active">
           <div class="card-body text-center">
             <div class="position-relative">
-              <i
-                class="icon-lg icon-box bg-gradient-primary rounded-circle ti-palette mb-5 d-inline-block text-white"></i>
-              <i class="icon-lg icon-watermark text-white ti-palette"></i>
+              <i class="icon-lg icon-box bg-gradient-primary rounded-circle ti-heart mb-5 d-inline-block text-white"></i>
+              <i class="icon-lg icon-watermark text-white ti-heart"></i>
             </div>
-            <h4 class="mb-4">Design</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmo</p>
+            <h4 class="mb-4">Teràpia Emocional</h4>
+            <p>Gestionem l'estrès, l'ansietat i l'equilibri emocional amb flors de Bach i sessions personalitzades.</p>
           </div>
         </div>
       </div>
+
       <div class="col-lg-4 mb-4 mb-lg-0">
         <div class="card hover-bg-secondary shadow py-4">
           <div class="card-body text-center">
             <div class="position-relative">
-              <i
-                class="icon-lg icon-box bg-gradient-primary rounded-circle ti-dashboard mb-5 d-inline-block text-white"></i>
-              <i class="icon-lg icon-watermark text-white ti-dashboard"></i>
+              <i class="icon-lg icon-box bg-gradient-primary rounded-circle ti-pulse mb-5 d-inline-block text-white"></i>
+              <i class="icon-lg icon-watermark text-white ti-pulse"></i>
             </div>
-            <h4 class="mb-4">Development</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmo</p>
+            <h4 class="mb-4">Massatge i Reequilibri</h4>
+            <p>Allibera tensions i recupera el benestar físic mitjançant tècniques manuals i naturals.</p>
           </div>
         </div>
       </div>
+
       <div class="col-lg-4 mb-4 mb-lg-0">
         <div class="card hover-bg-secondary shadow py-4">
           <div class="card-body text-center">
             <div class="position-relative">
-              <i
-                class="icon-lg icon-box bg-gradient-primary rounded-circle ti-announcement mb-5 d-inline-block text-white"></i>
-              <i class="icon-lg icon-watermark text-white ti-announcement"></i>
+              <i class="icon-lg icon-box bg-gradient-primary rounded-circle ti-apple mb-5 d-inline-block text-white"></i>
+              <i class="icon-lg icon-watermark text-white ti-apple"></i>
             </div>
-            <h4 class="mb-4">Marketing</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmo</p>
+            <h4 class="mb-4">Assessorament Nutricional</h4>
+            <p>Millora la teva salut amb una dieta equilibrada i consells nutricionals.</p>
           </div>
         </div>
       </div>
@@ -163,54 +160,54 @@
 <!-- feature -->
 <section class="section bg-secondary position-relative">
   <div class="bg-image overlay-secondary">
-    <img src="images/feature.jpg" alt="bg-image">
+    <img src="images/benestar-fons.jpg" alt="Centre de Benestar">
   </div>
   <div class="container-fluid">
     <div class="row">
       <div class="col-xl-9 mx-auto">
         <div class="row align-items-center">
           <div class="col-lg-4 mb-4 mb-lg-0">
-            <img src="images/feature.jpg" alt="feature-image" class="img-fluid">
+            <img src="images/terapia.webp" alt="Sessió de teràpia natural" class="img-fluid">
           </div>
           <div class="col-lg-7 offset-lg-1">
             <div class="row">
               <div class="col-12">
-                <h2 class="text-white">We know What Bait to Use</h2>
+                <h2 class="text-white">El teu benestar és la nostra prioritat</h2>
                 <div class="section-border ml-0"></div>
               </div>
               <div class="col-md-6 mb-4">
                 <div class="media">
-                  <i class="icon text-gradient-primary ti-vector mr-3"></i>
+                  <i class="icon text-gradient-primary ti-face-smile mr-3"></i>
                   <div class="media-body">
-                    <h4 class="text-white">User Experience</h4>
-                    <p class="text-light">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmo</p>
+                    <h4 class="text-white">Equilibri Emocional</h4>
+                    <p class="text-light">Sessions personalitzades amb flors de Bach i teràpia emocional per ajudar-te a connectar amb tu mateix.</p>
                   </div>
                 </div>
               </div>
               <div class="col-md-6 mb-4">
                 <div class="media">
-                  <i class="icon text-gradient-primary ti-layout mr-3"></i>
+                  <i class="icon text-gradient-primary ti-hand-open mr-3"></i>
                   <div class="media-body">
-                    <h4 class="text-white">Responsive Layout</h4>
-                    <p class="text-light">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmo</p>
+                    <h4 class="text-white">Teràpies Manuals</h4>
+                    <p class="text-light">Massatges relaxants i reequilibrants per alliberar tensions i millorar l'energia corporal.</p>
                   </div>
                 </div>
               </div>
               <div class="col-md-6 mb-4">
                 <div class="media">
-                  <i class="icon text-gradient-primary ti-headphone-alt mr-3"></i>
+                  <i class="icon text-gradient-primary ti-apple mr-3"></i>
                   <div class="media-body">
-                    <h4 class="text-white">Digital Solutions</h4>
-                    <p class="text-light">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmo</p>
+                    <h4 class="text-white">Nutrició Natural</h4>
+                    <p class="text-light">Assessorament nutricional per millorar la salut a través d'una alimentació conscient i natural.</p>
                   </div>
                 </div>
               </div>
               <div class="col-md-6 mb-4">
                 <div class="media">
-                  <i class="icon text-gradient-primary ti-ruler-pencil mr-3"></i>
+                  <i class="icon text-gradient-primary ti-microphone-alt mr-3"></i>
                   <div class="media-body">
-                    <h4 class="text-white">Bootstrap 4x</h4>
-                    <p class="text-light">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmo</p>
+                    <h4 class="text-white">Tallers i Xerrades</h4>
+                    <p class="text-light">Espais d’aprenentatge i creixement sobre benestar, emocions i hàbits saludables.</p>
                   </div>
                 </div>
               </div>
@@ -221,6 +218,7 @@
     </div>
   </div>
 </section>
+
 <!-- /feature -->
 
 <!-- team -->
@@ -228,8 +226,8 @@
   <div class="container">
     <div class="row">
       <div class="col-lg-10 mx-auto text-center">
-        <h2>Our Team</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor</p>
+        <h2>El nostre Equip</h2>
+        <p>Professionals dedicats a ajudar-te a aconseguir el teu benestar físic i emocional.</p>
         <div class="section-border"></div>
       </div>
     </div>
@@ -239,7 +237,7 @@
           <img src="images/team/member-1.jpg" alt="team-member" class="card-img-top">
           <div class="card-body text-center position-relative zindex-1">
             <h4><a class="text-dark" href="team-single.php">Sara Adams</a></h4>
-            <i>Designer</i>
+            <i>Terapeuta de Benestar</i>
           </div>
         </div>
       </div>
@@ -248,7 +246,7 @@
           <img src="images/team/member-2.jpg" alt="team-member" class="card-img-top">
           <div class="card-body text-center position-relative zindex-1">
             <h4><a class="text-dark" href="team-single.php">Tom Bills</a></h4>
-            <i>Developer</i>
+            <i>Especialista en Massatges</i>
           </div>
         </div>
       </div>
@@ -257,7 +255,7 @@
           <img src="images/team/member-3.jpg" alt="team-member" class="card-img-top">
           <div class="card-body text-center position-relative zindex-1">
             <h4><a class="text-dark" href="team-single.php">Anna Walle</a></h4>
-            <i>Manager</i>
+            <i>Nutricionista i Coach de Salut</i>
           </div>
         </div>
       </div>
@@ -266,7 +264,7 @@
           <img src="images/team/member-4.jpg" alt="team-member" class="card-img-top">
           <div class="card-body text-center">
             <h4>Devid Json</h4>
-            <i>CEO</i>
+            <i>Fundador i CEO</i>
           </div>
         </div>
       </div>
@@ -281,166 +279,15 @@
   <div class="container">
     <div class="row justify-content-between">
       <div class="col-lg-6 col-md-8 col-sm-7 col-8">
-        <h2 class="text-white mb-4">Who We Are</h2>
-        <p class="text-light mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-          incididunt
-          ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat.</p>
-        <a href="about.php" class="btn btn-primary">Read More</a>
-      </div>
-      <div class="col-md-2 col-sm-4 col-4 text-right align-self-end">
-        <a class="venobox" data-autoplay="true" data-vbtype="video"
-          href="https://www.youtube.com/watch?v=jrkvirglgaQ"><i
-            class="text-center icon-sm icon-box rounded-circle text-white bg-gradient-primary d-block ti-control-play"></i></a>
+        <h2 class="text-white mb-4">Qui Som</h2>
+        <p class="text-light mb-4">Som un grup de professionals dedicats a millorar el teu benestar físic i emocional. Oferim serveis especialitzats en teràpies naturals, massatges i nutrició personalitzada per ajudar-te a aconseguir el teu màxim potencial de salut.</p>
+        <a href="about.php" class="btn btn-primary">Llegir Més</a>
       </div>
     </div>
   </div>
 </section>
+
 <!-- /about -->
-
-<!-- project -->
-<section class="section">
-  <div class="container-fluid px-0">
-    <div class="row">
-      <div class="col-lg-10 mx-auto text-center">
-        <h2>Our Feature Works</h2>
-        <div class="section-border"></div>
-      </div>
-    </div>
-
-    <div class="row no-gutters shuffle-wrapper">
-      <div class="col-lg-4 col-md-6 shuffle-item">
-        <div class="project-item">
-          <img src="images/project/project-1.jpg" alt="project-image" class="img-fluid w-100">
-          <div class="project-hover bg-secondary px-4 py-3">
-            <a href="#" class="text-white h4">Project title</a>
-            <a href="#"><i class="ti-link icon-xs text-white"></i></a>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-4 col-md-6 shuffle-item">
-        <div class="project-item">
-          <img src="images/project/project-2.jpg" alt="project-image" class="img-fluid w-100">
-          <div class="project-hover bg-secondary px-4 py-3">
-            <a href="#" class="text-white h4">Project title</a>
-            <a href="#"><i class="ti-link icon-xs text-white"></i></a>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-4 col-md-6 shuffle-item">
-        <div class="project-item">
-          <img src="images/project/project-3.jpg" alt="project-image" class="img-fluid w-100">
-          <div class="project-hover bg-secondary px-4 py-3">
-            <a href="#" class="text-white h4">Project title</a>
-            <a href="#"><i class="ti-link icon-xs text-white"></i></a>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-4 col-md-6 shuffle-item">
-        <div class="project-item">
-          <img src="images/project/project-4.jpg" alt="project-image" class="img-fluid w-100">
-          <div class="project-hover bg-secondary px-4 py-3">
-            <a href="#" class="text-white h4">Project title</a>
-            <a href="#"><i class="ti-link icon-xs text-white"></i></a>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-4 col-md-6 shuffle-item">
-        <div class="project-item">
-          <img src="images/project/project-5.jpg" alt="project-image" class="img-fluid w-100">
-          <div class="project-hover bg-secondary px-4 py-3">
-            <a href="#" class="text-white h4">Project title</a>
-            <a href="#"><i class="ti-link icon-xs text-white"></i></a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-<!-- /project -->
-
-<!-- call to action -->
-<section>
-  <div class="container section-sm overlay-secondary-half bg-cover" data-background="images/backgrounds/cta-bg.jpg">
-  <div class="row">
-    <div class="col-lg-8 offset-lg-1">
-      <h2 class="text-gradient-primary">Let's Start With Us!</h2>
-      <p class="h4 font-weight-bold text-white mb-4">Lorem ipsum dolor sit amet, magna habemus ius ad</p>
-      <a href="contact.php" class="btn btn-lg btn-primary">Let’s talk</a>
-    </div>
-  </div>
-</div>
-</section>
-<!-- /call to action -->
-
-<!-- pricing -->
-<section class="section pb-0">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-10 mx-auto text-center">
-        <h2>Our Smart Pricing Table</h2>
-        <div class="section-border"></div>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
-        <div class="card bottom-shape bg-secondary pt-4 pb-5">
-          <div class="card-body text-center">
-            <h4 class="text-white">Basic</h4>
-            <p class="text-light mb-4">Besic and simple website</p>
-            <p class="text-white mb-4">$ <span class="display-3 font-weight-bold vertical-align-middle">30</span></p>
-            <ul class="list-unstyled mb-5">
-              <li class="text-white mb-3">Mobile-Optimized Website</li>
-              <li class="text-white mb-3">Powerful Website Metrics</li>
-              <li class="text-white mb-3">Free Custom Domain</li>
-              <li class="text-white mb-3">24/7 Customer Support</li>
-              <li class="text-white mb-3">Fully Integrated E-Cormmerce</li>
-              <li class="text-white mb-3">Sell unlimited Product</li>
-            </ul>
-            <a href="#" class="btn btn-outline-light">Try it now</a>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
-        <div class="card bottom-shape bg-secondary pt-4 pb-5">
-          <div class="card-body text-center">
-            <h4 class="text-white">Basic</h4>
-            <p class="text-light mb-4">Besic and simple website</p>
-            <p class="text-white mb-4">$ <span class="display-3 font-weight-bold vertical-align-middle">30</span></p>
-            <ul class="list-unstyled mb-5">
-              <li class="text-white mb-3">Mobile-Optimized Website</li>
-              <li class="text-white mb-3">Powerful Website Metrics</li>
-              <li class="text-white mb-3">Free Custom Domain</li>
-              <li class="text-white mb-3">24/7 Customer Support</li>
-              <li class="text-white mb-3">Fully Integrated E-Cormmerce</li>
-              <li class="text-white mb-3">Sell unlimited Product</li>
-            </ul>
-            <a href="#" class="btn btn-outline-light">Try it now</a>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
-        <div class="card bottom-shape bg-secondary pt-4 pb-5">
-          <div class="card-body text-center">
-            <h4 class="text-white">Basic</h4>
-            <p class="text-light mb-4">Besic and simple website</p>
-            <p class="text-white mb-4">$ <span class="display-3 font-weight-bold vertical-align-middle">30</span></p>
-            <ul class="list-unstyled mb-5">
-              <li class="text-white mb-3">Mobile-Optimized Website</li>
-              <li class="text-white mb-3">Powerful Website Metrics</li>
-              <li class="text-white mb-3">Free Custom Domain</li>
-              <li class="text-white mb-3">24/7 Customer Support</li>
-              <li class="text-white mb-3">Fully Integrated E-Cormmerce</li>
-              <li class="text-white mb-3">Sell unlimited Product</li>
-            </ul>
-            <a href="#" class="btn btn-outline-light">Try it now</a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-<!-- /pricing -->
 
 <!-- blog -->
 <section class="section">

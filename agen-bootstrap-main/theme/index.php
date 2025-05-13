@@ -9,6 +9,20 @@
 
 <html lang="zxx">
 
+<?php
+// Conexión a la base de datos (ajusta con la configuración correcta)
+$servername = "mysql-uf3.alwaysdata.net";
+$username = "uf3";
+$password = "Esencia3";
+$dbname = "uf3_db";
+
+$conn = new mysqli($servername, $username, $password, $dbname);
+
+// Comprobar si la conexión ha sido exitosa
+if ($conn->connect_error) {
+    die("Conexión fallida: " . $conn->connect_error);
+}
+?>
 <head>
   <meta charset="utf-8">
   <title>Essència Natural</title>
@@ -69,6 +83,9 @@
         </li>
         <li class="nav-item">
           <a class="nav-link" href="portfolio.php">Portfolio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="testimonis.php">Testimonis</a>
         </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Pages</a>
@@ -290,52 +307,54 @@
 <!-- /about -->
 
 <!-- blog -->
+<?php
+// Conexión y consulta a la base de datos
+$sqlBlog = "SELECT * FROM noticies ORDER BY data_publicacio DESC LIMIT 3;";
+$resultBlog = $conn->query($sqlBlog);
+?>
 <section class="section">
   <div class="container">
     <div class="row">
       <div class="col-lg-10 mx-auto text-center">
-        <h2>Latest News</h2>
+        <h2>Ultimes noticies</h2>
         <div class="section-border"></div>
       </div>
     </div>
     <div class="row">
-      <div class="col-lg-4 col-md-6 mb-4 mb-lg-0">
-        <article class="card">
-          <img src="images/blog/post-1.jpg" alt="post-thumb" class="card-img-top mb-2">
-          <div class="card-body p-0">
-            <time>January 15, 2018</time>
-            <a href="blog-single" class="h4 card-title d-block my-3 text-dark hover-text-underline">How These Different
-              Book Covers Reflect the Design</a>
-            <a href="#" class="btn btn-transparent">Read more</a>
-          </div>
-        </article>
-      </div>
-      <div class="col-lg-4 col-md-6 mb-4 mb-lg-0">
-        <article class="card">
-          <img src="images/blog/post-2.jpg" alt="post-thumb" class="card-img-top mb-2">
-          <div class="card-body p-0">
-            <time>January 15, 2018</time>
-            <a href="blog-single" class="h4 card-title d-block my-3 text-dark hover-text-underline">How These Different
-              Book Covers Reflect the Design</a>
-            <a href="#" class="btn btn-transparent">Read more</a>
-          </div>
-        </article>
-      </div>
-      <div class="col-lg-4 col-md-6 mb-4 mb-lg-0">
-        <article class="card">
-          <img src="images/blog/post-3.jpg" alt="post-thumb" class="card-img-top mb-2">
-          <div class="card-body p-0">
-            <time>January 15, 2018</time>
-            <a href="blog-single" class="h4 card-title d-block my-3 text-dark hover-text-underline">How These Different
-              Book Covers Reflect the Design</a>
-            <a href="#" class="btn btn-transparent">Read more</a>
-          </div>
-        </article>
-      </div>
+      <?php
+      // Verificar si hay resultados
+      if ($resultBlog->num_rows > 0) {
+        // Iterar a través de los resultados
+        while($row = $resultBlog->fetch_assoc()) {
+          $id = $row["id"];
+          $titol = $row["titol"];
+          $data = date('F d, Y', strtotime($row["data_publicacio"])); // Formato de fecha
+          $imatge = $row["imatge"]; // Asumiendo que la columna 'imatge' contiene el nombre de la imagen
+
+          // Mostrar las noticias
+          echo '<div class="col-lg-4 col-md-6 mb-4 mb-lg-0">';
+          echo '<article class="card">';
+          echo '<img src="images/blog/' . $imatge . '" alt="post-thumb" class="card-img-top mb-2">';
+          echo '<div class="card-body p-0">';
+          echo '<time>' . $data . '</time>';
+          echo '<a href="blog-single.php?id=' . $id . '" class="h4 card-title d-block my-3 text-dark hover-text-underline">' . $titol . '</a>';
+          echo '<a href="blog-single.php?id=' . $id . '" class="btn btn-transparent">Read more</a>';
+          echo '</div>';
+          echo '</article>';
+          echo '</div>';
+        }
+      } else {
+        echo "No hay noticias disponibles.";
+      }
+
+      // Cerrar la conexión
+      $conn->close();
+      ?>
     </div>
   </div>
 </section>
 <!-- /blog -->
+
 
 <!-- footer -->
 <footer class="bg-secondary position-relative">

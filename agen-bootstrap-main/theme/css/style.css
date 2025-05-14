@@ -1047,3 +1047,140 @@ footer .overlay-image {
     font-style: italic;
     color: #7f8c8d;
 }
+
+.blog-container {
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 20px;
+    margin-top: 100px;
+}
+
+.blog-container h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #2c3e50;
+}
+
+.noticia-item {
+    background-color: #f9f9f9;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.noticia-item h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.noticia-item a {
+    text-decoration: none;
+    color: #3498db;
+}
+
+.noticia-item p {
+    color: #7f8c8d;
+}
+
+.detall-noticia-container {
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.detall-container{
+      margin-top: 150px;
+}
+.detall-noticia-container h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #2c3e50;
+}
+
+.detall-noticia-container p {
+    font-size: 1.1em;
+    color: #7f8c8d;
+    line-height: 1.6;
+}
+
+.comentari-item {
+    background-color: #f0f0f0;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 6px;
+}
+
+.comentari-item p {
+    color: #34495e;
+}
+
+header{
+  background-color: #07085d;
+}
+
+form {
+  background-color: #ffffff;
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+form h2 {
+  margin-bottom: 20px;
+  text-align: center;
+  color: #333;
+}
+
+label {
+  display: block;
+  margin-top: 15px;
+  font-weight: bold;
+  color: #555;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  box-sizing: border-box;
+}
+
+button {
+  width: 100%;
+  margin-top: 20px;
+  background-color: #008080;
+  color: white;
+  border: none;
+  padding: 12px;
+  font-size: 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #006666;
+}
+
+/* Mensajes */
+p {
+  text-align: center;
+  margin-top: 10px;
+  color: #444;
+}
+
+.register,
+.login{
+  margin-top: 150px;
+}
+

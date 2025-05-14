@@ -14,10 +14,12 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     if ($usuari = $result->fetch_assoc()) {
         if (password_verify($password, $usuari["password"])) {
             $_SESSION["usuari_id"] = $usuari["id"];
+            $_SESSION["nom"] = $usuari["nom"];
             $_SESSION["rol"] = $usuari["rol"];
-            header("Location: index.php"); // Redirecció a la home
+            header("Location: index.php");
             exit(); // Important!
-        } else {
+        }
+        else {
             echo "Contrasenya incorrecta.";
         }
     } else {

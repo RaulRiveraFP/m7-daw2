@@ -13,26 +13,26 @@ if (session_status() === PHP_SESSION_NONE) {
 
     <div class="collapse navbar-collapse text-center" id="navigation">
       <ul class="navbar-nav ml-auto">
-        <li class="nav-item active">
-          <a class="nav-link" href="index.php">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="blog.php">Blog</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="portfolio.php">Portfolio</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="testimonis.php">Testimonis</a>
-        </li>
+        <li class="nav-item"><a class="nav-link" href="index.php">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="blog.php">Blog</a></li>
+        <li class="nav-item"><a class="nav-link" href="portfolio.php">Portfolio</a></li>
+        <li class="nav-item"><a class="nav-link" href="testimonis.php">Testimonis</a></li>
 
         <?php if (isset($_SESSION['usuari_id'])): ?>
+          <li class="nav-item">
+            <span class="nav-link text-white">
+              Hola, <?= htmlspecialchars($_SESSION['nom']) ?> (<?= htmlspecialchars($_SESSION['rol']) ?>)
+            </span>
+          </li>
           <li class="nav-item">
             <a class="nav-link" href="logout.php">Tancar sessió</a>
           </li>
         <?php else: ?>
           <li class="nav-item">
             <a class="nav-link" href="login.php">Login</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="register.php">Registre</a>
           </li>
         <?php endif; ?>
       </ul>

@@ -1,6 +1,11 @@
+<?php
+session_start(); // Asegúrate de que la sesión esté iniciada
+?>
+
 <!DOCTYPE html>
 
 <!--
+
  // WEBSITE: https://themefisher.com
  // TWITTER: https://twitter.com/themefisher
  // FACEBOOK: https://www.facebook.com/themefisher

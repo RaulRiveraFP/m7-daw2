@@ -1,4 +1,7 @@
 <?php
+session_start(); // Asegúrate de que la sesión esté iniciada
+?>
+<?php
 // Conexión a la base de datos
 $servername = "mysql-uf3.alwaysdata.net";
 $username = "uf3";

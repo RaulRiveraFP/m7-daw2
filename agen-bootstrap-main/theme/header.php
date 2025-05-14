@@ -1,9 +1,9 @@
 <?php
-if (session_status() === PHP_SESSION_NONE) {
-    session_start();
-}
+session_start();
 ?>
-<header class="navigation fixed-top">
+
+
+<header class="navigation ">
   <nav class="navbar navbar-expand-lg navbar-dark">
     <a class="navbar-brand" href="index.php"><img src="images/logo.png" alt="Egen"></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation"
@@ -24,6 +24,14 @@ if (session_status() === PHP_SESSION_NONE) {
               Hola, <?= htmlspecialchars($_SESSION['nom']) ?> (<?= htmlspecialchars($_SESSION['rol']) ?>)
             </span>
           </li>
+          
+          <!-- Mostrar el enlace al panell d'administració si el rol és 'admin' -->
+          <?php if ($_SESSION['rol'] == 'admin'): ?>
+            <li class="nav-item">
+              <a class="nav-link" href="adminPanel.php">Panell d'Administració</a>
+            </li>
+          <?php endif; ?>
+
           <li class="nav-item">
             <a class="nav-link" href="logout.php">Tancar sessió</a>
           </li>

@@ -1179,8 +1179,9 @@ p {
   color: #444;
 }
 
-.register,
-.login{
-  margin-top: 150px;
-}
 
+
+
+header{
+  background-color: #07085d;
+}
